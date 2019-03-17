@@ -1,0 +1,23 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emsal92/HelloWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emsal92/HelloWorld/issues"
+  },
+  "homepage": "https://github.com/Emsal92/HelloWorld#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.15.6"
+  }
+}
