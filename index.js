@@ -84,9 +84,11 @@ app.use(bodyParser.json());
       });
     }
   });
+  
+	const PORT = process.env.PORT || 3000;
 
-app.listen(3000, function(x, y){
+	app.listen(PORT, function(x, y){
 
-	console.log("server is listening");
+		console.log("server is listening");
 
-});
+	});
